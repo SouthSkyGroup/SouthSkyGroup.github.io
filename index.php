@@ -1,188 +1,190 @@
 <?php
-echo '<html>';
-echo '<head>';
-echo '<meta charset="UTF-8">';
-echo '<meta http-equiv="X-UA-Compatible" content="IE=edge">';
-echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8">';
-echo '<meta name="viewport" content="width=device-width, initial-scale=1">';
-echo '<meta name="title" content="VulkanRAT C2(Command & Control)">';
-echo '<meta name="description" content="SouthSkyGroup">';
-echo '<meta name="keywords" content="hacked,deface,website,whitehat,defacer,hack,mirror,VulkanRAT C2(Command & Control)">';
-echo '<meta name="robots" content="index, follow">';
-echo '<meta name="language" content="English">';
-echo '<meta name="revisit-after" content="60 days">';
-echo '<meta name="author" content="SouthSkyGroup">';
-echo '<title>VulkanRAT C2(Command & Control)</title>';
-echo '<meta property="og:image" content="https://drvee07.github.io/loc/drv7.png">';
-echo '<meta name="theme-color" content="#000">';
-echo '<link rel="icon" type="image/png" href="https://drvee07.github.io/loc/drv7.png">';
-echo '<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">';
-echo '<link href="https://fonts.googleapis.com/css2?family=Reggae+One&amp;display=swap" rel="stylesheet">';
-echo '<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>';
-echo '<style type="text/css">';
-echo 'body,';
-echo 'a:hover {';
-echo 'cursor: url(http://cur.cursors-4u.net/cursors/cur-3/cur201.png), progress !important;';
-echo '}';
-echo '</style>';
-echo '</head>';
-echo '<body bgcolor="white" text="white" oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;" onclick="document.getElementById('lagu').play();fs()" id="body" onload="typeWriter()" style="cursor: none;">';
-echo '<style type="text/css">';
-echo 'center {';
-echo 'font-family: Acme;';
-echo '}';
-echo 'img {';
-echo 'opacity: 80%;';
-echo '}';
-echo 'red {';
-echo 'color: red;';
-echo '}';
-echo '#background-video {';
-echo 'height: 100vh;';
-echo 'width: 100vw;';
-echo 'object-fit: cover;';
-echo 'position: fixed;';
-echo 'left: 0;';
-echo 'right: 0;';
-echo 'top: 0;';
-echo 'bottom: 0;';
-echo 'z-index: -1;';
-echo '}';
-echo 'font {';
-echo 'text-shadow: #000 0px 0px 3px;';
-echo '-webkit-font-smoothing: antialiased;';
-echo '}';
-echo 'div {';
-echo 'animation: glitch 1s linear infinite;';
-echo '}';
-echo '@keyframes glitch {';
-echo '2%,';
-echo '64% {';
-echo 'transform: translate(2px, 0) skew(0deg);';
-echo '}';
-echo '4%,';
-echo '60% {';
-echo 'transform: translate(-2px, 0) skew(0deg);';
-echo '}';
-echo '62% {';
-echo 'transform: translate(0, 0) skew(5deg);';
-echo '}';
-echo '}';
-echo 'div:before,';
-echo 'div:after {';
-echo 'content: attr(title);';
-echo 'position: absolute;';
-echo 'left: 0;';
-echo '}';
-echo 'div:before {';
-echo 'animation: glitchTop 1s linear infinite;';
-echo 'clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);';
-echo '-webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);';
-echo '}';
-echo '@keyframes glitchTop {';
-echo '2%,';
-echo '64% {';
-echo 'transform: translate(2px, -2px);';
-echo '}';
-echo '4%,';
-echo '60% {';
-echo 'transform: translate(-2px, 2px);';
-echo '}';
-echo '62% {';
-echo 'transform: translate(13px, -1px) skew(-13deg);';
-echo '}';
-echo '}';
-echo 'div:after {';
-echo 'animation: glitchBotom 1.5s linear infinite;';
-echo 'clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);';
-echo '-webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);';
-echo '}';
-echo '@keyframes glitchBotom {';
-echo '2%,';
-echo '64% {';
-echo 'transform: translate(-2px, 0);';
-echo '}';
-echo '4%,';
-echo '60% {';
-echo 'transform: translate(-2px, 0);';
-echo '}';
-echo '62% {';
-echo 'transform: translate(-22px, 5px) skew(21deg);';
-echo '}';
-echo '}';
-echo '</style>';
-echo '<script language="JavaScript">';
-echo 'window.onbeforeunload = confirmExit;';
-echo 'function confirmExit() {';
-echo 'return "are you sure ? wkwk";';
-echo '}';
-echo 'function fs() {';
-echo 'var elem = document.documentElement;';
-echo 'if (elem.requestFullscreen) {';
-echo 'elem.requestFullscreen();';
-echo '} else if (elem.msRequestFullscreen) {';
-echo 'elem.msRequestFullscreen();';
-echo '} else if (elem.mozRequestFullScreen) {';
-echo 'elem.mozRequestFullScreen();';
-echo '} else if (elem.webkitRequestFullscreen) {';
-echo 'elem.webkitRequestFullscreen();';
-echo '}';
-echo 'document.getElementById("body").style.cursor = 'none';';
-echo 'document.onkeydown = function(e) {';
-echo 'return false;';
-echo '}';
-echo 'document.addEventListener("keydown", e => {';
-echo 'if (e.key == "F11") e.preventDefault();';
-echo '});';
-echo '}';
-echo '</script>';
-echo '<script id="rendered-js">';
-echo 'document.addEventListener('DOMContentLoaded', function (event) {';
-echo 'var dataText = ["Wh00pz ! your security get down !"];';
-echo 'function typeWriter(text, i, fnCallback) {';
-echo 'if (i < text.length) {';
-echo 'document.getElementById("hekerabies").innerHTML = text.substring(0, i + 1);';
-echo 'setTimeout(function () {';
-echo 'typeWriter(text, i + 1, fnCallback);';
-echo '}, 150);';
-echo '}';
-echo 'else if (typeof fnCallback == 'function') {';
-echo 'setTimeout(fnCallback, 7000);';
-echo '}';
-echo '}';
-echo 'function StartTextAnimation(i) {';
-echo 'if (typeof dataText[i] == 'undefined') {';
-echo 'setTimeout(function () {';
-echo 'StartTextAnimation(0);';
-echo '}, 30000);';
-echo '}';
-echo 'if (i < dataText[i].length) {';
-echo 'typeWriter(dataText[i], 0, function () {';
-echo 'StartTextAnimation(i + 1);';
-echo '});';
-echo '}';
-echo '}';
-echo 'StartTextAnimation(0);';
-echo '});';
-echo '</script>';
-echo '<audio src="https://southskygroup.github.io/vnloveru.mp3" autoplay="true" id="lagu" loop=""></audio>';
-echo '<video id="background-video" src="https://southskygroup.github.io/vid1111.webm" autoplay="" loop="" muted="" style="position: fixed;object-fit: cover;" poster="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII="><source src="https://southskygroup.github.io/vid1111.webm" type="video/webm">';
-echo '</video>';
-echo '<table width="100%" height="80%">';
-echo '<tbody><tr><td>';
-echo '<center>';
-echo '<img border="0" src="https://drvee07.github.io/hct.png" width="300" height="300">';
-echo '<font face="Reggae One" color="red"><b><h1>..:: VulkanRAT C2 ::..</h1></b>';
-echo '<p><b>..:: SouthSkyGroup (DG) ::..</b></p></font>';
-echo '<font color="white">Bingungkan Mereka Dengan Diam Mu &amp; Kejutkan Mereka Dengan Aksi MU!!';
-echo '<p><font color="red">$</font> Greetz <font color="red">$</font></p>';
-echo '<p><marquee direction="left" scrollamount="6" width="80%" style="width: 80%;">| FidzXploit | RizkulSec | ./DrVee_404 | ./XizB3f | Suapnasi01 | MataPanda.Spy | U.E UNITE ERROR | BlackDevil | TukangBH | Mas Fredens | ./Fakesec666 | n0 N4m391 | WIRA-CODING FAILED | Mrx.Az.Al | Yuno19 | Sang Penyalang | ESON SADEWA | Mr MAK | MrKaktus/AstroBOY | GrenXPaRTa | Mr.Croot | Ghost7 | Catroot7 | SLX_94 | HackThist AcEh | MrVxdx1-Xploit | Mr.A | WhiteSHARK | davsec.id | Fakesite | FilhoXp | Ragnarok | sudo.exploit | ./PandaXploit | WaPs616 | Run3x | Mr.Venom | Larsee | MR PLANKTON | Anonymous Bot X | Tabarak Khan | Beluga | LetnanCurut | ./USERVXIII | Network7 | AgenTranSom666 | Mr.Heckers | Ixp666Sec | ./Mr_Wh0?-LaughXploit | Stars | YANN-ID | Crex707 | BX10 | MastaBeen | 313 | AnggaXploit | Bjorkyuk | X3ND1 |</marquee></p>';
-echo '<p>description: we are a team / organization that has little experience in the internet world</p>';
-echo '<p><font color="red">sayasehat404@protonmail.com</font></p>';
-echo '<p>[+] INDONESIAN HACKER RULES [+]</p></font>';
-echo '</center>';
-echo '</td>';
-echo '</tr></tbody></table>';
-echo '';
-echo '</body></html>';
+echo '
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="VulkanRAT C2(Command & Control)">
+    <meta name="description" content="SouthSkyGroup">
+    <meta name="keywords" content="hacked,deface,website,whitehat,defacer,hack,mirror,VulkanRAT C2(Command & Control)">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="60 days">
+    <meta name="author" content="SouthSkyGroup">
+    <title>VulkanRAT C2(Command & Control)</title>
+    <meta property="og:image" content="https://drvee07.github.io/loc/drv7.png">
+    <meta name="theme-color" content="#000">
+    <link rel="icon" type="image/png" href="https://drvee07.github.io/loc/drv7.png">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&amp;display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <style type="text/css">
+      body,
+      a:hover {
+        cursor: url(http://cur.cursors-4u.net/cursors/cur-3/cur201.png), progress !important;
+      }
+    </style>
+  </head>
+  <body bgcolor="white" text="white" oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;" onclick="document.getElementById(\'lagu\').play();fs()" id="body" onload="typeWriter()" style="cursor: none;">
+  <style type="text/css">
+      center {
+        font-family: Acme;
+      }
+      img {
+        opacity: 80%;
+      }
+      red {
+        color: red;
+      }
+      #background-video {
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+      font {
+        text-shadow: #000 0px 0px 3px;
+        -webkit-font-smoothing: antialiased;
+      }
+      div {
+        animation: glitch 1s linear infinite;
+      }
+      @keyframes glitch {
+        2%,
+        64% {
+          transform: translate(2px, 0) skew(0deg);
+        }
+        4%,
+        60% {
+          transform: translate(-2px, 0) skew(0deg);
+        }
+        62% {
+          transform: translate(0, 0) skew(5deg);
+        }
+      }
+      div:before,
+      div:after {
+        content: attr(title);
+        position: absolute;
+        left: 0;
+      }
+      div:before {
+        animation: glitchTop 1s linear infinite;
+        clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+      }
+      @keyframes glitchTop {
+        2%,
+        64% {
+          transform: translate(2px, -2px);
+        }
+        4%,
+        60% {
+          transform: translate(-2px, 2px);
+        }
+        62% {
+          transform: translate(13px, -1px) skew(-13deg);
+        }
+      }
+      div:after {
+        animation: glitchBotom 1.5s linear infinite;
+        clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+        -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+      }
+      @keyframes glitchBotom {
+        2%,
+        64% {
+          transform: translate(-2px, 0);
+        }
+        4%,
+        60% {
+          transform: translate(-2px, 0);
+        }
+        62% {
+          transform: translate(-22px, 5px) skew(21deg);
+        }
+      }
+  </style>
+<script language="JavaScript">
+      window.onbeforeunload = confirmExit;
+      function confirmExit() {
+        return "are you sure ? wkwk";
+      }
+      function fs() {
+        var elem = document.documentElement;
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+        } else if (elem.msRequestFullscreen) {
+          elem.msRequestFullscreen();
+        } else if (elem.mozRequestFullScreen) {
+          elem.mozRequestFullScreen();
+        } else if (elem.webkitRequestFullscreen) {
+          elem.webkitRequestFullscreen();
+        }
+        document.getElementById("body").style.cursor = \'none\';
+        document.onkeydown = function(e) {
+          return false;
+        }
+        document.addEventListener("keydown", e => {
+          if (e.key == "F11") e.preventDefault();
+        });
+      }
+</script>
+<script id="rendered-js">
+document.addEventListener(\'DOMContentLoaded\', function (event) {
+  var dataText = ["Wh00pz ! your security get down !"];
+  function typeWriter(text, i, fnCallback) {
+    if (i < text.length) {
+      document.getElementById("hekerabies").innerHTML = text.substring(0, i + 1);
+      setTimeout(function () {
+        typeWriter(text, i + 1, fnCallback);
+      }, 150);
+    }
+    else if (typeof fnCallback == \'function\') {
+        setTimeout(fnCallback, 7000);
+      }
+  }
+  function StartTextAnimation(i) {
+    if (typeof dataText[i] == \'undefined\') {
+      setTimeout(function () {
+        StartTextAnimation(0);
+      }, 30000);
+    }
+    if (i < dataText[i].length) {
+      typeWriter(dataText[i], 0, function () {
+        StartTextAnimation(i + 1);
+      });
+    }
+  }
+  StartTextAnimation(0);
+});
+</script>
+    <audio src="https://southskygroup.github.io/vnloveru.mp3" autoplay="true" id="lagu" loop=""></audio>
+    <video id="background-video" src="https://southskygroup.github.io/vid1111.webm" autoplay="" loop="" muted="" style="position: fixed;object-fit: cover;" poster="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII="><source src="https://southskygroup.github.io/vid1111.webm" type="video/webm">
+    </video>
+    <table width="100%" height="80%">
+      <tbody><tr><td>
+        <center>
+            <img border="0" src="https://drvee07.github.io/hct.png" width="300" height="300">
+            <font face="Reggae One" color="red"><b><h1>..:: VulkanRAT C2 ::..</h1></b>
+            <p><b>..:: SouthSkyGroup (DG) ::..</b></p></font>
+            <font color="white">Bingungkan Mereka Dengan Diam Mu &amp; Kejutkan Mereka Dengan Aksi MU!!
+            <p><font color="red">$</font> Greetz <font color="red">$</font></p>
+            <p><marquee direction="left" scrollamount="6" width="80%" style="width: 80%;">| FidzXploit | RizkulSec | ./DrVee_404 | ./XizB3f | Suapnasi01 | MataPanda.Spy | U.E UNITE ERROR | BlackDevil | TukangBH | Mas Fredens | ./Fakesec666 | n0 N4m391 | WIRA-CODING FAILED | Mrx.Az.Al | Yuno19 | Sang Penyalang | ESON SADEWA | Mr MAK | MrKaktus/AstroBOY | GrenXPaRTa | Mr.Croot | Ghost7 | Catroot7 | SLX_94 | HackThist AcEh | MrVxdx1-Xploit | Mr.A | WhiteSHARK | davsec.id | Fakesite | FilhoXp | Ragnarok | sudo.exploit | ./PandaXploit | WaPs616 | Run3x | Mr.Venom | Larsee | MR PLANKTON | Anonymous Bot X | Tabarak Khan | Beluga | LetnanCurut | ./USERVXIII | Network7 | AgenTranSom666 | Mr.Heckers | Ixp666Sec | ./Mr_Wh0?-LaughXploit | Stars | YANN-ID | Crex707 | BX10 | MastaBeen | 313 | AnggaXploit | Bjorkyuk | X3ND1 |</marquee></p>
+            <p>description: we are a team / organization that has little experience in the internet world</p>
+            <p><font color="red">sayasehat404@protonmail.com</font></p>
+            <p>[+] INDONESIAN HACKER RULES [+]</p></font>
+        </center>
+      </td>
+    </tr></tbody></table>
+  
+  </body></html>
+';
 ?>
